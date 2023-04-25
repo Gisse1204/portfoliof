@@ -6,5 +6,6 @@
 
 .img-fluid{
     object-fit: cover;
+    width:100%;
     }
     
