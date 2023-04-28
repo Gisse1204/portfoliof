@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = 'https://portfoliob-omega.vercel.app/personas/';
+  URL = 'http://portfoliob-omega.vercel.app/personas/';
 
   constructor(private http: HttpClient) { }
 

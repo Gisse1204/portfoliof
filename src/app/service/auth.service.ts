@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://portfoliob-omega.vercel.app/auth/';
+  authURL = 'http://portfoliob-omega.vercel.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
