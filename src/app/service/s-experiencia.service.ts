@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'http://portfoliob-omega.vercel.app/explab/';
+  expURL = 'https://portfoliob-omega.vercel.app/explab/';
 
   constructor(private httpClient: HttpClient) { }
 

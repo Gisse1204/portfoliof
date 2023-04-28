@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'http://portfoliob-omega.vercel.app/educacion/';
+  URL = 'https://portfoliob-omega.vercel.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 
